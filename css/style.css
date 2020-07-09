@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  color: #40514E;
+
+}
+
+h1 {
+  color: #66bfbf;
+  font-weight: normal;
+  margin: 50px auto 0 auto;
+  font-family: 'Comic Neue', cursive;
+  font-size: 3rem;/*does not get effected by root font-size*/
+
+}
+
+h2 {
+  color: #66bfbf;
+  font-weight: normal;
+  font-family: 'Comic Neue', cursive;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+.pro{
+  text-decoration: underline;
+}
+.into{
+  width: 30%;
+  margin: auto;
+}
+p{
+    line-height: 2;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  width: 4%;
+  border-bottom: none;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Comic Neue', cursive;
+}
+.skill-row {
+  width : 40%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+
+}
+.code-skill2{
+  width : 30%
+  text-align: left;
+}
+.top-container {
+  background-color: #ddf3f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 300px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 200px;
+  bottom: 250px;
+}
+.code-img{
+  float: left;
+  border-radius: 10%;
+  margin-right: 20px;
+}
+.web-img{
+  float: right;
+  margin-left: 20px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  width: 10px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Comic Neue', cursive;
+  color: #ffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+a{
+  color:#11999E;
+  font-weight: 600;
+  font-family: 'Comic Neue', cursive;
+  margin: 5px 5px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+.copyright{
+  color: #eaf6f6;
+  font-family: 0.75rem;
+  padding: 20px 0;
+}
